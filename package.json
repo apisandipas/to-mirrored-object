@@ -4,7 +4,7 @@
   "description": "helper to make an key mirrored object from an array of keys",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Bryan Paronto <bparonto@gmail.com> (http://bryanparonto.com/)",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "key-mirror": "^1.0.0"
   },
   "devDependencies": {
-      "chai": "^1.10.0",
-      "mocha": "^2.1.0"
-    }
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
 }
